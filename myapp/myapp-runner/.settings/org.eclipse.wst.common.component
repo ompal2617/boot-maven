@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="myapp">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="myapp-resources-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-resources/myapp-resources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myapp-config-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-config/myapp-config">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myapp-services-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-services/myapp-services">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myapp-repository-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-repository/myapp-repository">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myapp-entity-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-entity/myapp-entity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myapp-bean-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-bean/myapp-bean">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myapp-exceptions-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-exceptions/myapp-exceptions">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="myapp-util-0.0.1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/myapp-util/myapp-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="myapp"/>
+        <property name="java-output-path" value="/myapp-runner/target/classes"/>
+    </wb-module>
+</project-modules>
